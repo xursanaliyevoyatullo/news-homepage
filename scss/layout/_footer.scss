@@ -1,0 +1,41 @@
+
+
+.footer__top__container  {
+    margin-bottom: 10rem;
+    font-family: $main-font;
+    display: flex;
+    gap: 3rem;
+}
+
+
+
+.footer__cards {
+    display: flex;
+    gap: 2.4rem;
+    .footer__cards__texts {
+        h1 {
+            font-weight: 700;
+            font-size: 3.2rem;
+            line-height: 1;
+            color: $silver;
+            margin-bottom: 1.2rem;
+        }
+        h4 {
+            font-weight: $font-weight;
+            font-size: $body-fs-lg;
+            line-height: $body-lh-lg;
+            margin-bottom: 0.9rem;
+            transition: 0.3s;
+            &:active {
+                color: $light-vemilloin;
+                transition: 0.3s;
+            }
+        }
+        p {
+            font-weight: 400;
+            width: 226px;
+            font-size: $body-fs-sm;
+            line-height: $body-lh-sm;
+        }
+    }
+}

@@ -1,0 +1,125 @@
+main {
+    flex-grow: 1;
+    margin-bottom: 7.1rem;
+}
+
+.main__top__container {
+    font-family: $main-font;
+    margin-bottom: 7rem;
+    display: flex;
+    gap: 5.4rem;
+    img {
+        width: 730px;
+        margin-bottom: 2.8rem;
+    }
+
+    .main__top__left__text {
+        display: flex;
+        gap: 3rem;
+        h1 {
+            width: 350px;
+            font-weight: $font-weight;
+            font-size: $h1-fs-lg;
+            line-height: $h1-lh-lg;
+        }
+
+    }
+
+    .main__top__left__text__body {
+        width: 350px;
+        p {
+            width: 350px;
+            font-weight: 400;
+            font-size: $body-fs-sm;
+            line-height: $body-lh-sm;
+            margin-bottom: 2.9rem;
+        }
+        
+        .main__link__btn {
+            width: 185px;
+            height: 48px;
+            background-color: $light-vemilloin;
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.4rem;
+            letter-spacing: 4.38px;
+            color: $almost-white;
+            padding: 1.5rem;
+            transition: 0.2s;
+        }
+        .main__link__btn:active {
+            background-color: $dark-space-blue;
+            transition: 0.2s;
+        }
+
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+    .main__top__container {
+        width: 343px;
+        padding: 1.6rem;
+        img {
+            width: 500px;
+            height: 276px;
+            margin-bottom: 2.4rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+.main__top__right {
+    width: 350px;
+    height: 511px;
+    background-color: $dark-space-blue;
+    font-family: $main-font;
+    h1 {
+        font-weight: 700;
+        font-size: $h1-fs-sm;
+        line-height: $h1-lh-sm;
+        color: $yellow;
+        margin-top: 3.2rem;
+        margin-left: 1.5rem;
+        margin-bottom: 3.4rem;
+    }
+
+    .main_top__right__text {    
+        width: 302px;
+        height: 374px;
+        margin-top: 3.2rem;
+        padding-left: 1.5rem;
+        h4 {
+            font-weight: $font-weight;
+            font-size: $h4-fs-sm;
+            line-height: $h4-lh-sm;
+            color: $almost-white;
+            margin-bottom: 2rem;
+            transition: 0.3s;
+            &:hover {
+                color: $yellow;
+                transition: 0.3s;
+            }
+        }
+        p {
+            font-weight: 400;
+            font-size: $body-fs-sm;
+            line-height: $body-lh-sm;
+            color: $silver;
+            margin-bottom: 2.9rem;
+        }
+        hr {
+            width: 290px;
+            color: $silver;
+            color: $gunmetal;
+            margin-bottom: 3.1rem;
+        }
+    }
+}
